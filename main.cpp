@@ -5,6 +5,8 @@ int main ()
 {
     int num1, num2;
     int sum;
+    string sut = "alexander lugter \n";
+    cout << sut;
     cout << "type a number: ";
     cin >> num1;
     cout << "type another number: ";
