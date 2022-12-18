@@ -3,14 +3,20 @@ using namespace std;
 
 int main ()
 {
-    int num1, num2;
-    int sum;
-    string sut = "alexander lugter \n";
-    cout << sut;
-    cout << "type a number: ";
-    cin >> num1;
-    cout << "type another number: ";
-    cin >> num2;
-    sum = num1 + num2;
-    cout << "Sum is: " << sum;
+    cout << "how many points did you loose? ";
+    int points;
+    cin >> points;
+
+    if (points < 2) 
+    {
+        cout << "You lost fewer points than me.\n";
+    }
+    else if (points > 2) 
+    {
+        cout << "You lost more points than me.\n";
+    }
+    else 
+    {
+        cout << "You lost the same amount of points as me!\n";
+    }
 }
