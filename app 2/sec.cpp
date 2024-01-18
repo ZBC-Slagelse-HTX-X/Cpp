@@ -8,3 +8,4 @@ int main(void)
     cin >> diller;
     cout << diller;
 }
+
